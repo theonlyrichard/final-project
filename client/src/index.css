@@ -1,9 +1,9 @@
 :root {
-  --primary: #232F3E;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
-  --light: #fafafa;
-  --dark: #272f32;
+  --primary: #8b54af;
+  --secondary: #e08d5d;
+  --tertiary: #1f1e1e;
+  --light: #e4e0e0;
+  --dark: #1f1f1f;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -21,11 +21,12 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Karla', sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
-  color: var(--dark);
+  background-color: var(--primary);
+  color: var(--light);
 }
 
 h1,
@@ -34,9 +35,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 500;
-  margin: 5px 0;
+  font-weight: 600;
+  margin: 15px 0;
   line-height: 1.25;
 }
 
@@ -76,11 +76,13 @@ a {
 }
 
 a:hover {
+  cursor: pointer;
   text-decoration: underline;
 }
 
 header {
-  background: var(--primary);
+  height: 118px;
+  background-image: url('../src/assets/Slide1-BG.jpeg');
 }
 
 header a {
@@ -90,12 +92,13 @@ header a {
 button {
   font-size: 1rem;
   text-decoration: none;
-  padding: 0.25rem 1rem;
+  padding: 0.30rem 1.2rem;
   border-radius: .5rem;
   border: none;
   outline: none;
   cursor: pointer;
   margin: 0 1px;
+  color: var(--light);
   background-color: var(--secondary);
 }
 
@@ -155,6 +158,7 @@ input:focus {
 }
 
 .mx-1 {
+  padding: 10px;
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
 }
