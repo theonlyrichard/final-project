@@ -130,7 +130,295 @@ db.once('open', async () => {
       image: 'alphabet-blocks.jpg',
       price: 9.99,
       quantity: 600
-    }
+    },
+    {
+      name: 'Sea of Tranquility by Emily St. John Mandel',
+      category: categories[3]._id,
+      description: "Edwin St. Andrew is eighteen years old when he crosses the Atlantic by steamship, exiled from polite society following an ill-conceived diatribe at a dinner party. He enters the forest, spellbound by the beauty of the Canadian wilderness, and suddenly hears the notes of a violin echoing in an airship terminal--an experience that shocks him to his core. Two centuries later a famous writer named Olive Llewellyn is on a book tour. She's traveling all over Earth, but her home is the second moon colony, a place of white stone, spired towers, and artificial beauty. Within the text of Olive's bestselling pandemic novel lies a strange passage: a man plays his violin for change in the echoing corridor of an airship terminal as the trees of a forest rise around him. When Gaspery-Jacques Roberts, a detective in the Night City, is hired to investigate an anomaly in the North American wilderness, he uncovers a series of lives upended: The exiled son of an earl driven to madness, a writer trapped far from home as a pandemic ravages Earth, and a childhood friend from the Night City who, like Gaspery himself, has glimpsed the chance to do something extraordinary that will disrupt the timeline of the universe. A virtuoso performance that is as human and tender as it is intellectually playful, Sea of Tranquility is a novel of time travel and metaphysics that precisely captures the reality of our current moment.",
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Moby Dick by Herman Melville',
+      category: categories[3]._id,
+      description: "So Melville wrote of his masterpiece, one of the greatest works of imagination in literary history. In part, Moby-Dick is the story of an eerily compelling madman pursuing an unholy war against a creature as vast and dangerous and unknowable as the sea itself. But more than just a novel of adventure, more than an encyclopaedia of whaling lore and legend, the book can be seen as part of its author's lifelong meditation on America. Written with wonderfully redemptive humour, Moby-Dick is also a profound inquiry into character, faith, and the nature of perception.",
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'The Midnight Library by Matt Haig',
+      category: categories[3]._id,
+      description: "Between life and death there is a library, and within that library, the shelves go on forever. Every book provides a chance to try another life you could have lived. To see how things would be if you had made other choices . . . Would you have done anything different, if you had the chance to undo your regrets? A dazzling novel about all the choices that go into a life well lived, from the internationally bestselling author of Reasons to Stay Alive and How To Stop Time. Somewhere out beyond the edge of the universe there is a library that contains an infinite number of books, each one the story of another reality. One tells the story of your life as it is, along with another book for the other life you could have lived if you had made a different choice at any point in your life. While we all wonder how our lives might have been, what if you had the chance to go to the library and see for yourself? Would any of these other lives truly be better? In The Midnight Library, Matt Haig’s enchanting new novel, Nora Seed finds herself faced with this decision. Faced with the possibility of changing her life for a new one, following a different career, undoing old breakups, realizing her dreams of becoming a glaciologist; she must search within herself as she travels through the Midnight Library to decide what is truly fulfilling in life, and what makes it worth living in the first place.",
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Portrait of a Thief by Grace D. Li',
+      category: categories[3]._id,
+      description: 'History is told by the conquerors. Across the Western world, museums display the spoils of war, of conquest, of colonialism: priceless pieces of art looted from other countries, kept even now. Will Chen plans to steal them back. A senior at Harvard, Will fits comfortably in his carefully curated roles: a perfect student, an art history major and sometimes artist, the eldest son who has always been his parents’ American Dream. But when a mysterious Chinese benefactor reaches out with an impossible—and illegal—job offer, Will finds himself something else as well: the leader of a heist to steal back five priceless Chinese sculptures, looted from Beijing centuries ago. His crew is every heist archetype one can imag­ine—or at least, the closest he can get. A con artist: Irene Chen, a public policy major at Duke who can talk her way out of anything. A thief: Daniel Liang, a premed student with steady hands just as capable of lockpicking as suturing. A getaway driver: Lily Wu, an engineering major who races cars in her free time. A hacker: Alex Huang, an MIT dropout turned Silicon Valley software engineer. Each member of his crew has their own complicated relationship with China and the identity they’ve cultivated as Chinese Americans, but when Will asks, none of them can turn him down. Because if they succeed? They earn fifty million dollars—and a chance to make history. But if they fail, it will mean not just the loss of everything they’ve dreamed for themselves but yet another thwarted at­tempt to take back what colonialism has stolen. Equal parts beautiful, thoughtful, and thrilling, Portrait of a Thief is a cultural heist and an examination of Chinese American identity, as well as a necessary cri­tique of the lingering effects of colonialism.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Ulysses by James Joyce',
+      category: categories[4]._id,
+      description: 'Loosely based on the Odyssey, this landmark of modern literature follows ordinary Dubliners in 1904. Capturing a single day in the life of Dubliner Leopold Bloom, his friends Buck Mulligan and Stephen Dedalus, his wife Molly, and a scintillating cast of supporting characters, Joyce pushes Celtic lyricism and vulgarity to splendid extremes. Captivating experimental techniques range from interior monologues to exuberant wordplay and earthy humor. A major achievement in 20th century literature. ',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'The Great Gatsby by F. Scott Fitzgerald',
+      category: categories[4]._id,
+      description: "The Great Gatsby, F. Scott Fitzgerald's third book, stands as the supreme achievement of his career. This exemplary novel of the Jazz Age has been acclaimed by generations of readers. The story is of the fabulously wealthy Jay Gatsby and his new love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted 'gin was the national drink and sex the national obsession,' it is an exquisitely crafted tale of America in the 1920s.",
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'A Portrait of the Artist as a Young Man by James Joyce',
+      category: categories[4]._id,
+      description: "The portrayal of Stephen Dedalus's Dublin childhood and youth, his quest for identity through art and his gradual emancipation from the claims of family, religion and Ireland itself, is also an oblique self-portrait of the young James Joyce and a universal testament to the artist's 'eternal imagination'. Both an insight into Joyce's life and childhood, and a unique work of modernist fiction, A Portrait of the Artist as a Young Man is a novel of sexual awakening, religious rebellion and the essential search for voice and meaning that every nascent artist must face in order to blossom fully into themselves.",
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Brave New World by Aldous Huxley',
+      category: categories[4]._id,
+      description: "Brave New World is a dystopian novel by English author Aldous Huxley, written in 1931 and published in 1932. Largely set in a futuristic World State, inhabited by genetically modified citizens and an intelligence-based social hierarchy, the novel anticipates huge scientific advancements in reproductive technology, sleep-learning, psychological manipulation and classical conditioning that are combined to make a dystopian society which is challenged by only a single individual: the story's protagonist.",
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'The Sound and the Fury by William Faulkner',
+      category: categories[5]._id,
+      description: 'The tragedy of the Compson family features some of the most memorable characters in literature: beautiful, rebellious Caddy; the manchild Benjy; haunted, neurotic Quentin; Jason, the brutal cynic; and Dilsey, their black servant. Their lives fragmented and harrowed by history and legacy, the character’s voices and actions mesh to create what is arguably Faulkner’s masterpiece and one of the greatest novels of the twentieth century.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Darkness at Noon by Arthur Koestler',
+      category: categories[5]._id,
+      description: "Darkness at Noon (from the German: Sonnenfinsternis) is a novel by the Hungarian-born British novelist Arthur Koestler, first published in 1940. His best-known work tells the tale of Rubashov, a Bolshevik 1917 revolutionary who is cast out, imprisoned and tried for treason by the Soviet government he'd helped create. Darkness at Noon stands as an unequaled fictional portrayal of the nightmare politics of our time. Its hero is an aging revolutionary, imprisoned and psychologically tortured by the Party to which he has dedicated his life. As the pressure to confess preposterous crimes increases, he relives a career that embodies the terrible ironies and human betrayals of a totalitarian movement masking itself as an instrument of deliverance. Almost unbearably vivid in its depiction of one man's solitary agony, it asks questions about ends and means that have relevance not only for the past but for the perilous present.",
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Sons and Lovers by D.H. Lawrence',
+      category: categories[5]._id,
+      description: "The marriage of Gertrude and Walter Morel has become a battleground. Repelled by her uneducated and sometimes violent husband, delicate Gertrude devotes her life to her children, especially to her sons, William and Paul - determined they will not follow their father into working down the coal mines. But conflict is evitable when Paul seeks to escape his mother's suffocating grasp through relationships with women his own age. Set in Lawrence's native Nottinghamshire, Sons and Lovers is a highly autobiographical and compelling portrayal of childhood, adolescence and the clash of generations.",
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'The Grapes of Wrath by John Steinbeck',
+      category: categories[5]._id,
+      description: 'The Pulitzer Prize-winning epic of the Great Depression, a book that galvanized—and sometimes outraged—millions of readers. First published in 1939, Steinbeck’s Pulitzer Prize-winning epic of the Great Depression chronicles the Dust Bowl migration of the 1930s and tells the story of one Oklahoma farm family, the Joads—driven from their homestead and forced to travel west to the promised land of California. Out of their trials and their repeated collisions against the hard realities of an America divided into Haves and Have-Nots evolves a drama that is intensely human yet majestic in its scale and moral vision, elemental yet plainspoken, tragic but ultimately stirring in its human dignity. A portrait of the conflict between the powerful and the powerless, of one man’s fierce reaction to injustice, and of one woman’s stoical strength, the novel captures the horrors of the Great Depression and probes into the very nature of equality and justice in America. At once a naturalistic epic, captivity narrative, road novel, and transcendental gospel, Steinbeck’s powerful landmark novel is perhaps the most American of American Classics.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'The Name of the Wind by Patrick Rothfuss',
+      category: categories[6]._id,
+      description: "Told in Kvothe's own voice, this is the tale of the magically gifted young man who grows to be the most notorious wizard his world has ever seen. The intimate narrative of his childhood in a troupe of traveling players, his years spent as a near-feral orphan in a crime-ridden city, his daringly brazen yet successful bid to enter a legendary school of magic, and his life as a fugitive after the murder of a king form a gripping coming-of-age story unrivaled in recent literature. A high-action story written with a poet's hand, The Name of the Wind is a masterpiece that will transport readers into the body and mind of a wizard.",
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'The Way of the Shadows by Brent Weeks',
+      category: categories[6]._id,
+      description: "For Durzo Blint, assassination is an art-and he is the city's most accomplished artist. For Azoth, survival is precarious. Something you never take for granted. As a guild rat, he's grown up in the slums, and learned to judge people quickly - and to take risks. Risks like apprenticing himself to Durzo Blint. But to be accepted, Azoth must turn his back on his old life and embrace a new identity and name. As Kylar Stern, he must learn to navigate the assassins' world of dangerous politics and strange magics - and cultivate a flair for death.",
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'The Lies of Locke Lamora by Scott Lynch',
+      category: categories[6]._id,
+      description: 'An orphan’s life is harsh—and often short—in the mysterious island city of Camorr. But young Locke Lamora dodges death and slavery, becoming a thief under the tutelage of a gifted con artist. As leader of the band of light-fingered brothers known as the Gentleman Bastards, Locke is soon infamous, fooling even the underworld’s most feared ruler. But in the shadows lurks someone still more ambitious and deadly. Faced with a bloody coup that threatens to destroy everyone and everything that holds meaning in his mercenary life, Locke vows to beat the enemy at his own brutal game—or die trying.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'The Book Thief by Markus Zusak',
+      category: categories[6]._id,
+      description: "It is 1939. Nazi Germany. The country is holding its breath. Death has never been busier, and will be busier still. By her brother's graveside, Liesel's life is changed when she picks up a single object, partially hidden in the snow. It is The Gravedigger's Handbook, left behind there by accident, and it is her first act of book thievery. So begins a love affair with books and words, as Liesel, with the help of her accordian-playing foster father, learns to read. Soon she is stealing books from Nazi book-burnings, the mayor's wife's library, wherever there are books to be found. But these are dangerous times. When Liesel's foster family hides a Jew in their basement, Liesel's world is both opened up, and closed down. In superbly crafted writing that burns with intensity, award-winning author Markus Zusak has given us one of the most enduring stories of our time.",
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[7]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[7]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[7]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[7]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[8]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[8]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[8]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[8]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[9]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[9]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[9]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[9]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[10]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[10]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[10]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[10]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[11]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[11]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[11]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Catch-22 by Joseph Heller',
+      category: categories[11]._id,
+      description: 'Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. Yet if Yossarian makes any attempt to excuse himself from the perilous missions he’s assigned, he’ll be in violation of Catch-22, a hilariously sinister bureaucratic rule: a man is considered insane if he willingly continues to fly dangerous combat missions, but if he makes a formal request to be removed from duty, he is proven sane and therefore ineligible to be relieved.',
+      image: 'spinning-top.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
   ]);
 
   console.log('products seeded');
