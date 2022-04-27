@@ -98,7 +98,7 @@ a:hover {
 }
 
 header {
-  height: 125px;
+  height: 150px;
   background-image: url('../src/assets/Slide1-BG.jpeg');
 }
 
@@ -138,10 +138,12 @@ span[role="img"] {
 
 form {
   width: 40%;
+  margin: 50px;
+  text-align: center;
 }
 
 input {
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 0.25rem;
   border: 1px solid var(--dark);
   outline: none;
