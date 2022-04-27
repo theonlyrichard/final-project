@@ -1,8 +1,8 @@
 :root {
-  --primary: #8b54af;
+  --primary: #8b36c4;
   --secondary: #e08d5d;
-  --tertiary: #e69131;
-  --light: #e4e0e0;
+  --tertiary: #e29237;
+  --light: #f1f1f1;
   --dark: #1f1f1f;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -27,23 +27,34 @@ body {
   font-size: 16px;
   background-image: url("../src/assets/—Pngtree—bubble\ border\ retro\ pop\ art_1291828.png");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-color: var(--primary);
-  color: var(--light);
 }
 
 h1 {
   font-weight: 600;
   margin: 30px 90px;
-  font-size: 2.25rem;
+  font-size: 3rem;
   line-height: 1.25;
 }
 
 h2 {
+  background-color: rgba(0, 0, 0, .5);
+  color: var(--light);
   font-weight: 600;
-  margin: 30px 450px;
-  font-size: 2rem;
+  padding: 2rem 3.3rem;
+  margin-bottom: 2rem;
+  border-radius: 3px;
+  margin: 40px 450px;
+  font-size: 2.25rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.25;
+}
+
+h2 span {
+  color: var(--primary);
+  text-decoration: underline;
 }
 
 h3 {
@@ -87,7 +98,7 @@ a:hover {
 }
 
 header {
-  height: 118px;
+  height: 125px;
   background-image: url('../src/assets/Slide1-BG.jpeg');
 }
 
@@ -96,14 +107,14 @@ header a {
 }
 
 button {
-  font-size: 1rem;
+  font-size: 1.02rem;
   text-decoration: none;
-  padding: 0.30rem 1.2rem;
+  padding: .5rem 1.3rem;
   border-radius: .5rem;
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0 1px;
+  margin: 3px 2px;
   color: var(--light);
   background-color: var(--secondary);
 }
@@ -214,6 +225,10 @@ input:focus {
 }
 
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+
   h2 {
     margin: 20px 0;
   }
